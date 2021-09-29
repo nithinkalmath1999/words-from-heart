@@ -1,0 +1,100 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    /* background: url(bg3.jpg); */
+    /* background-size: cover; */
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+body::-webkit-scrollbar{width: 0%;}
+
+.card{
+    height:500px; 
+    width:600px; 
+    margin-left:30%; 
+    margin-top:90px; 
+    box-shadow:10px 10px 5px #aaaaaa; 
+    text-align:center; 
+    border-radius:20px;
+}
+
+.blockquote{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.card-body{
+    background: url(bg4.jpg);
+    background-size: cover;
+    height: 800px;
+    width:575px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+} 
+.tag{
+    color: #fff;
+    font-size: 100px;
+    top:-30%;
+    left: 20%;
+    padding: 270px 40px;
+}
+
+.loginbox{
+    padding: 12px;
+    width: 300px;
+    background-color: #000;
+    color: #fff;
+    top: 50%;
+    left: 80%;
+    height: 430px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 6%;
+
+}
+
+.avathar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12%;
+    left: 35%;
+   
+}
+
+.button{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(250, 246, 0);
+    margin-left: 90%;
+    
+}
+
+#logo{
+    background: rgb(241, 235, 235);
+    border-radius: 10px;
+}
+
+
+.add{
+    margin-top: 40px;
+    width: 550px;
+    height: 300px;
+    margin-left: 20%;
+    margin-bottom: 25px;
+    padding: 18px;
+    background-color: #000;
+    color: #fff;
+    top: 40%;
+    left:40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 6%;
+}
